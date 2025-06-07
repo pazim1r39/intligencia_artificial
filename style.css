@@ -1,0 +1,32 @@
+* { margin: 0 auto;}
+
+.container{
+    display: flex;
+     justify-content: space-evenly;     
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;/*opcional para espaçar as div*/
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    height: 100px;/*a altura da linha é a mesma da altura do topo = isso ajuda a centralizar o texto na altura*/
+}
+.topo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 100px;
+    color:rgb(86, 141, 224);
+    padding: 10px;
+}
+
+.box{
+    width: 33%;
+    margin: 1%;
+    box-shadow: 2px 2px 5px #101010;
+    padding: 1%;
+    background-color: #5950d8;
+    border-radius: 10px;
+}
